@@ -190,18 +190,14 @@ body {
     text-align: center;
 }
 
-.intro img {
-    width: 200px;   /* smaller image */
-    height: 200px;
-    margin: 20px 0; /* spacing above/below */
-    margin-top: 400px;
-}
 
 .intro p, 
 .intro h3 {
     position: static;   /* remove absolute positioning */
     margin: 10px 0;
     font-size: 18px;    /* smaller text size */
+    color: rgb(199, 53, 199);
+    margin-top: 500px;
 }
 }
 .next {
