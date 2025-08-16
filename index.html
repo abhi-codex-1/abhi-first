@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<video class="BackgroundVideo" src="BackgroundVideo.mp4" autoplay loop muted playsinline>
+
+</video>
+<body>
+    <!--Header Elements-->
+    <header  data-aos="fade-down" data-aos-duration="2000">
+        <div class="top-bar">
+            <img src="/photos/PageLogo.png" class="logo" alt="logo">
+            <h3 class="LogoName">Abhijeet Anandd</h3>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    
+        <nav class="nav-right" id="navMenu">
+            <p class="about">About</p>
+            <p class="skills" >Skills</p>
+            <p class="projects" >Projects</p>
+        </nav>
+    </header>
+    <!--For Elements-->
+    <main class="content" role="main">
+        <div class="intro">
+            <img src="/photos/introphoto.png"  alt="photo">
+            <p><span style="color: rgb(220, 224, 228);">HI,THIS IS</span> ABHIJEET
+            </p>
+            <h3><span style="color: aliceblue;">I'm a intermadiate coder</span> | Eager to learn
+            </h3>
+        </div>
+    </main>
+    <div class="container">
+        <div class="next">
+            <h2>Skills</h2>
+            <p>I am new at this Field.</p>
+        </div>
+        <a href="project.html" target="_blank"> 
+            <div class="ok">
+                <h2>Projects</h2>
+                <p>will update later</p>
+            </div>
+        </a>
+    
+        <div class="hello">
+            <h2>Abouts</h2>
+            <p>will update later</p>
+        </div>
+    </div>
+    <script>
+        if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0); // start at the top on load
+    </script>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("show");
+        }
+    </script>
+
+
+</body>
+</html>
