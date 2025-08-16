@@ -10,22 +10,17 @@ h3 {
     margin-top: 5px;
 }
 .about{
-    padding-right: 20px;
-    padding-left: 10px;
-    margin-left: 230px;
-    margin-right: 5px;
     font-size: 25px;
     color: rgb(136, 31, 150);
     z-index: 1000;
 }
 .skills{
-    padding-right: 20px;
     font-size: 25px;
     color: rgb(136, 31, 150);
     z-index: 1000;
 }
 .projects{
-    padding-right: 550px;
+    margin-right: 120px;
     font-size: 25px;
     color: rgb(136, 31, 150);
     z-index: 1000;
@@ -44,7 +39,6 @@ header{
     right: 0;
     left: 0;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 30px;
     height: 70px;
@@ -57,6 +51,10 @@ header{
 .nav-right {
 display: flex;
 align-items: center;
+margin: 0 auto;
+}
+.nav-right p{
+    padding: 0 20px;
 }
 
 /* Hide hamburger on desktop */
@@ -82,7 +80,6 @@ color: rgb(204, 41, 204);
     right: 20px;
     background-color: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(2px);
-    padding: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(194, 36, 154, 0.3);
     z-index: 9999;
@@ -122,6 +119,7 @@ body {
 .top-bar{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .top-bar img{
@@ -196,6 +194,7 @@ body {
     width: 200px;   /* smaller image */
     height: 200px;
     margin: 20px 0; /* spacing above/below */
+    margin-top: 120px;
 }
 
 .intro p, 
