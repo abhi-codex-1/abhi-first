@@ -70,7 +70,7 @@ color: rgb(204, 41, 204);
   /* Show hamburger, hide nav by default */
 .hamburger {
     display: block;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 
 .nav-right {
