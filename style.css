@@ -277,6 +277,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 300px;
+    justify-content: space-around;
 }
 .container > div, .container > a > div {
     width: 300px;
